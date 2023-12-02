@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3t1-nl-sWq">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UserDefault_Login_Uygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kullanıcı Adı" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ytj-yY-Isw">
+                                <rect key="frame" x="40" y="229" width="310" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lso-6L-E7k">
+                                <rect key="frame" x="40" y="306" width="310" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bue-81-4W8">
+                                <rect key="frame" x="166" y="365" width="59" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Giriş"/>
+                                <connections>
+                                    <action selector="girisYap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHl-2W-IVO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bue-81-4W8" secondAttribute="trailing" constant="165" id="0r8-xg-OIF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lso-6L-E7k" secondAttribute="trailing" constant="40" id="6wr-6R-MKu"/>
+                            <constraint firstItem="lso-6L-E7k" firstAttribute="top" secondItem="Ytj-yY-Isw" secondAttribute="bottom" constant="43" id="D3F-cL-wdf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ytj-yY-Isw" secondAttribute="trailing" constant="40" id="ITu-12-p4s"/>
+                            <constraint firstItem="Ytj-yY-Isw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="138" id="Nvd-mr-bOo"/>
+                            <constraint firstItem="bue-81-4W8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="RYk-r3-JbL"/>
+                            <constraint firstItem="lso-6L-E7k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="SQt-oN-TQh"/>
+                            <constraint firstItem="bue-81-4W8" firstAttribute="top" secondItem="lso-6L-E7k" secondAttribute="bottom" constant="25" id="hRl-cy-GkQ"/>
+                            <constraint firstItem="Ytj-yY-Isw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ode-UW-jUS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LxV-9g-aOJ"/>
+                    <connections>
+                        <outlet property="textfieldKullaniciAdi" destination="Ytj-yY-Isw" id="CXe-sx-mIP"/>
+                        <outlet property="textfieldSifre" destination="lso-6L-E7k" id="bjr-GM-Bj1"/>
+                        <segue destination="isP-mf-f78" kind="show" identifier="girisToanasayfa" animates="NO" id="3nX-c8-QUy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970.76923076923072" y="3.5545023696682461"/>
+        </scene>
+        <!--Anasayfa-->
+        <scene sceneID="jNR-bE-jzj">
+            <objects>
+                <viewController id="isP-mf-f78" customClass="AnasayfaVC" customModule="UserDefault_Login_Uygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cgf-m4-zda">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZa-35-RY7">
+                                <rect key="frame" x="136.66666666666666" y="392" width="117" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oOq-t0-jQa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XZa-35-RY7" firstAttribute="centerX" secondItem="cgf-m4-zda" secondAttribute="centerX" id="7Nt-WI-3ng"/>
+                            <constraint firstItem="XZa-35-RY7" firstAttribute="centerY" secondItem="cgf-m4-zda" secondAttribute="centerY" id="np9-02-5uZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Anasayfa" id="geZ-3z-BVC">
+                        <barButtonItem key="rightBarButtonItem" title="Çıkış" id="4Nv-aj-P3F">
+                            <connections>
+                                <action selector="cikisYap:" destination="isP-mf-f78" id="zYD-eZ-SKi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="labelSonuc" destination="XZa-35-RY7" id="Bh1-dr-46d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c2f-s3-gwq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1935" y="4"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fU4-0K-NNG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3t1-nl-sWq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kro-eG-BlW">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Zd-qI-LfX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47d-3S-e5c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41.53846153846154" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
