@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		399BB8612B20FE0C003F3582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8602B20FE0C003F3582 /* AppDelegate.swift */; };
+		399BB8632B20FE0C003F3582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8622B20FE0C003F3582 /* SceneDelegate.swift */; };
+		399BB8652B20FE0C003F3582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8642B20FE0C003F3582 /* ViewController.swift */; };
+		399BB8682B20FE0C003F3582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399BB8662B20FE0C003F3582 /* Main.storyboard */; };
+		399BB86B2B20FE0C003F3582 /* CoreData_Giris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8692B20FE0C003F3582 /* CoreData_Giris.xcdatamodeld */; };
+		399BB86D2B20FE0D003F3582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399BB86C2B20FE0D003F3582 /* Assets.xcassets */; };
+		399BB8702B20FE0D003F3582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399BB86E2B20FE0D003F3582 /* LaunchScreen.storyboard */; };
+		399BB87B2B20FE0E003F3582 /* CoreData_GirisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB87A2B20FE0E003F3582 /* CoreData_GirisTests.swift */; };
+		399BB8852B20FE0E003F3582 /* CoreData_GirisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8842B20FE0E003F3582 /* CoreData_GirisUITests.swift */; };
+		399BB8872B20FE0E003F3582 /* CoreData_GirisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399BB8862B20FE0E003F3582 /* CoreData_GirisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		399BB8772B20FE0E003F3582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399BB8552B20FE0C003F3582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399BB85C2B20FE0C003F3582;
+			remoteInfo = "CoreData Giris";
+		};
+		399BB8812B20FE0E003F3582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399BB8552B20FE0C003F3582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399BB85C2B20FE0C003F3582;
+			remoteInfo = "CoreData Giris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		399BB85D2B20FE0C003F3582 /* CoreData Giris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData Giris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		399BB8602B20FE0C003F3582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		399BB8622B20FE0C003F3582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		399BB8642B20FE0C003F3582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		399BB8672B20FE0C003F3582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399BB86A2B20FE0C003F3582 /* CoreData_Giris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Giris.xcdatamodel; sourceTree = "<group>"; };
+		399BB86C2B20FE0D003F3582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		399BB86F2B20FE0D003F3582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		399BB8712B20FE0D003F3582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399BB8762B20FE0E003F3582 /* CoreData GirisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData GirisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		399BB87A2B20FE0E003F3582 /* CoreData_GirisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_GirisTests.swift; sourceTree = "<group>"; };
+		399BB8802B20FE0E003F3582 /* CoreData GirisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData GirisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		399BB8842B20FE0E003F3582 /* CoreData_GirisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_GirisUITests.swift; sourceTree = "<group>"; };
+		399BB8862B20FE0E003F3582 /* CoreData_GirisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_GirisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399BB85A2B20FE0C003F3582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB8732B20FE0E003F3582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB87D2B20FE0E003F3582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		399BB8542B20FE0C003F3582 = {
+			isa = PBXGroup;
+			children = (
+				399BB85F2B20FE0C003F3582 /* CoreData Giris */,
+				399BB8792B20FE0E003F3582 /* CoreData GirisTests */,
+				399BB8832B20FE0E003F3582 /* CoreData GirisUITests */,
+				399BB85E2B20FE0C003F3582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		399BB85E2B20FE0C003F3582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399BB85D2B20FE0C003F3582 /* CoreData Giris.app */,
+				399BB8762B20FE0E003F3582 /* CoreData GirisTests.xctest */,
+				399BB8802B20FE0E003F3582 /* CoreData GirisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399BB85F2B20FE0C003F3582 /* CoreData Giris */ = {
+			isa = PBXGroup;
+			children = (
+				399BB8602B20FE0C003F3582 /* AppDelegate.swift */,
+				399BB8622B20FE0C003F3582 /* SceneDelegate.swift */,
+				399BB8642B20FE0C003F3582 /* ViewController.swift */,
+				399BB8662B20FE0C003F3582 /* Main.storyboard */,
+				399BB86C2B20FE0D003F3582 /* Assets.xcassets */,
+				399BB86E2B20FE0D003F3582 /* LaunchScreen.storyboard */,
+				399BB8712B20FE0D003F3582 /* Info.plist */,
+				399BB8692B20FE0C003F3582 /* CoreData_Giris.xcdatamodeld */,
+			);
+			path = "CoreData Giris";
+			sourceTree = "<group>";
+		};
+		399BB8792B20FE0E003F3582 /* CoreData GirisTests */ = {
+			isa = PBXGroup;
+			children = (
+				399BB87A2B20FE0E003F3582 /* CoreData_GirisTests.swift */,
+			);
+			path = "CoreData GirisTests";
+			sourceTree = "<group>";
+		};
+		399BB8832B20FE0E003F3582 /* CoreData GirisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				399BB8842B20FE0E003F3582 /* CoreData_GirisUITests.swift */,
+				399BB8862B20FE0E003F3582 /* CoreData_GirisUITestsLaunchTests.swift */,
+			);
+			path = "CoreData GirisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399BB85C2B20FE0C003F3582 /* CoreData Giris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399BB88A2B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData Giris" */;
+			buildPhases = (
+				399BB8592B20FE0C003F3582 /* Sources */,
+				399BB85A2B20FE0C003F3582 /* Frameworks */,
+				399BB85B2B20FE0C003F3582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreData Giris";
+			productName = "CoreData Giris";
+			productReference = 399BB85D2B20FE0C003F3582 /* CoreData Giris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		399BB8752B20FE0E003F3582 /* CoreData GirisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399BB88D2B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData GirisTests" */;
+			buildPhases = (
+				399BB8722B20FE0E003F3582 /* Sources */,
+				399BB8732B20FE0E003F3582 /* Frameworks */,
+				399BB8742B20FE0E003F3582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399BB8782B20FE0E003F3582 /* PBXTargetDependency */,
+			);
+			name = "CoreData GirisTests";
+			productName = "CoreData GirisTests";
+			productReference = 399BB8762B20FE0E003F3582 /* CoreData GirisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		399BB87F2B20FE0E003F3582 /* CoreData GirisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399BB8902B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData GirisUITests" */;
+			buildPhases = (
+				399BB87C2B20FE0E003F3582 /* Sources */,
+				399BB87D2B20FE0E003F3582 /* Frameworks */,
+				399BB87E2B20FE0E003F3582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399BB8822B20FE0E003F3582 /* PBXTargetDependency */,
+			);
+			name = "CoreData GirisUITests";
+			productName = "CoreData GirisUITests";
+			productReference = 399BB8802B20FE0E003F3582 /* CoreData GirisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		399BB8552B20FE0C003F3582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					399BB85C2B20FE0C003F3582 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					399BB8752B20FE0E003F3582 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 399BB85C2B20FE0C003F3582;
+					};
+					399BB87F2B20FE0E003F3582 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 399BB85C2B20FE0C003F3582;
+					};
+				};
+			};
+			buildConfigurationList = 399BB8582B20FE0C003F3582 /* Build configuration list for PBXProject "CoreData Giris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 399BB8542B20FE0C003F3582;
+			productRefGroup = 399BB85E2B20FE0C003F3582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399BB85C2B20FE0C003F3582 /* CoreData Giris */,
+				399BB8752B20FE0E003F3582 /* CoreData GirisTests */,
+				399BB87F2B20FE0E003F3582 /* CoreData GirisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		399BB85B2B20FE0C003F3582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399BB8702B20FE0D003F3582 /* LaunchScreen.storyboard in Resources */,
+				399BB86D2B20FE0D003F3582 /* Assets.xcassets in Resources */,
+				399BB8682B20FE0C003F3582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB8742B20FE0E003F3582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB87E2B20FE0E003F3582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399BB8592B20FE0C003F3582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399BB8652B20FE0C003F3582 /* ViewController.swift in Sources */,
+				399BB8612B20FE0C003F3582 /* AppDelegate.swift in Sources */,
+				399BB8632B20FE0C003F3582 /* SceneDelegate.swift in Sources */,
+				399BB86B2B20FE0C003F3582 /* CoreData_Giris.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB8722B20FE0E003F3582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399BB87B2B20FE0E003F3582 /* CoreData_GirisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399BB87C2B20FE0E003F3582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399BB8872B20FE0E003F3582 /* CoreData_GirisUITestsLaunchTests.swift in Sources */,
+				399BB8852B20FE0E003F3582 /* CoreData_GirisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		399BB8782B20FE0E003F3582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399BB85C2B20FE0C003F3582 /* CoreData Giris */;
+			targetProxy = 399BB8772B20FE0E003F3582 /* PBXContainerItemProxy */;
+		};
+		399BB8822B20FE0E003F3582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399BB85C2B20FE0C003F3582 /* CoreData Giris */;
+			targetProxy = 399BB8812B20FE0E003F3582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		399BB8662B20FE0C003F3582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399BB8672B20FE0C003F3582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		399BB86E2B20FE0D003F3582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399BB86F2B20FE0D003F3582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		399BB8882B20FE0E003F3582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		399BB8892B20FE0E003F3582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399BB88B2B20FE0E003F3582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoreData Giris/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-Giris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399BB88C2B20FE0E003F3582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoreData Giris/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-Giris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		399BB88E2B20FE0E003F3582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-GirisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData Giris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreData Giris";
+			};
+			name = Debug;
+		};
+		399BB88F2B20FE0E003F3582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-GirisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData Giris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreData Giris";
+			};
+			name = Release;
+		};
+		399BB8912B20FE0E003F3582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-GirisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreData Giris";
+			};
+			name = Debug;
+		};
+		399BB8922B20FE0E003F3582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN7U7592HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.CoreData-GirisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreData Giris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399BB8582B20FE0C003F3582 /* Build configuration list for PBXProject "CoreData Giris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399BB8882B20FE0E003F3582 /* Debug */,
+				399BB8892B20FE0E003F3582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399BB88A2B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData Giris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399BB88B2B20FE0E003F3582 /* Debug */,
+				399BB88C2B20FE0E003F3582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399BB88D2B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData GirisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399BB88E2B20FE0E003F3582 /* Debug */,
+				399BB88F2B20FE0E003F3582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399BB8902B20FE0E003F3582 /* Build configuration list for PBXNativeTarget "CoreData GirisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399BB8912B20FE0E003F3582 /* Debug */,
+				399BB8922B20FE0E003F3582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		399BB8692B20FE0C003F3582 /* CoreData_Giris.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				399BB86A2B20FE0C003F3582 /* CoreData_Giris.xcdatamodel */,
+			);
+			currentVersion = 399BB86A2B20FE0C003F3582 /* CoreData_Giris.xcdatamodel */;
+			path = CoreData_Giris.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 399BB8552B20FE0C003F3582 /* Project object */;
+}
